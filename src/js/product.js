@@ -29,7 +29,7 @@ console.log(productID);
 const product = new ProductDetails(productID, dataSource);
 product.init();
 
-function addProductToCart(product) {
+async function addProductToCart(product) {
   const existingItem = selectedItems.find((item) => item.Id === product.Id);
   if (!existingItem) {
     product.quantity = 1;
@@ -38,7 +38,10 @@ function addProductToCart(product) {
     existingItem.quantity += 1;
   }
   //reruns loadheaderfooter to update cart count
-  loadHeaderFooter();
+  await loadHeaderFooter();
+  const cartSup = document.getElementById("cart-sup");
+  cartSup.classList.add("animate");
+  setTimeout(() => cartSup.classList.remove("animate"), 300);
 }
 
 async function addToCartHandler(e) {

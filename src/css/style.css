@@ -150,6 +150,24 @@ button {
   background-color: gray;
 }
 
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.4);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.cart sup.animate {
+  animation: pop 0.3s ease-out;
+}
+
 /* End cart icon styles */
 
 .mission {
