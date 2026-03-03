@@ -1,31 +1,25 @@
-# BYU-Pathway Worldwide Online
-
-## WDD 330 - Web Frontend Development II
-
-### ⛺ SleepOutside Starter Code
-
-- This repository is the start of the SleepOutside web application project for WDD 330. The repository contains branches which are checkpoints for the team and individual assignments throughout the course.
-
-- https://byui-cse.github.io/wdd330-ww-course/week01/team.html
-
-### Prerequisites
-
-- You must have Node installed to run the following commands.
-  [WDD 330 Setup Environment](https://byui-cse.github.io/wdd330-ww-course/intro/)
-
-### Common Workflow Commands
-
-- `npm run lint` to run ESLint against your code to find errors.
-- `npm run format` to run Prettier to automatically format your code.
-- `npm run start` starts up a local server and updates on any JS or CSS/SCSS
-- `npm run build` to build final files when you are ready to turn in.
-
-trello share link: https://trello.com/invite/b/68b59404b9c111f3c8cbf77b/ATTI57f92503f76c459ac0cbdf875c9e20af20E65F96/sleep-outside
-
-Netlify website app: https://unrivaled-tulumba-2f905a.netlify.app/
-Netlify website deploy page
-https://app.netlify.com/projects/unrivaled-tulumba-2f905a/deploys
-
----
-
-_BYU-Pathway Worldwide improves lives through access to spiritually based, online affordable higher education. Its mission is to develop disciples of Jesus Christ who are leaders in their homes, the Church, and their communities._
+#Team-Based E-Commerce Web Application
+#Overview
+This project was developed as part of a collaborative web development team. The goal was to build and improve a multi-page e-commerce application using structured Git workflow and task management tools.
+My Role
+Frontend Developer (Collaborative Team Project)
+Responsibilities
+Created and managed feature branches
+Merged changes via pull requests
+Fixed UI/UX bugs (page loading issues, styling inconsistencies)
+Improved Lighthouse performance metrics
+Implemented feature updates including:
+Sales indicators
+Out-of-stock functionality
+Participated in task tracking and sprint planning using Trello
+Technologies Used
+HTML
+CSS
+JavaScript
+Git & GitHub (branching strategy)
+Trello (project management)
+Key Learning Outcomes
+Collaborative Git workflow
+Version control best practices
+Performance optimization
+Team-based development process
